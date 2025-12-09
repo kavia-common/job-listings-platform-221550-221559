@@ -1,3 +1,5 @@
-// since there's no dynamic data here, we can prerender
-// it so that it gets served as a static asset in production
+/**
+ * Page prerendering is enabled so the shell is static. Client-side interactivity
+ * handles filtering and modal views.
+ */
 export const prerender = true;
